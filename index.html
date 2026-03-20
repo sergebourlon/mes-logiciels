@@ -32,6 +32,14 @@
         .btn:hover {
             background: #63b3ff;
         }
+
+        .btn.disabled {
+            background: grey;
+            cursor: not-allowed;
+            pointer-events: none; /* empêche le clic */
+            opacity: 0.7;
+        }
+        
     </style>
 </head>
 
@@ -41,9 +49,7 @@
 
     <a class="btn" href="https://github.com/sergebourlon/mes-logiciels/releases/download/v1.0/Setup_Calculateur_VLSM.zip">Calculateur réseaux IPV4 - VLSM</a>
 
-    <a class="btn" style="background: grey; cursor: not-allowed;" href="">Chapters2MP4 (bientôt)</a>
-
-    <button class="btn" disabled>Chapters2MP4 (bientôt)</button>
+    <a class="btn disabled" href="#">Chapters2MP4 (prochainement)</a>
 
 </body>
 </html>
