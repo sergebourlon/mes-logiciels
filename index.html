@@ -93,6 +93,18 @@ footer {
     font-size: 14px; /* Texte plus petit */
 }
 
+/* Pop-up "Lien copié" */
+#messageCopie {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}
+
 </style>
     
 </head>
@@ -162,6 +174,10 @@ footer {
             <i class="fas fa-envelope"></i> <!-- Icône email -->
         </a>
 
+        <!-- Copier le lien -->
+        <a href="#" onclick="copierLien()" class="social"><i class="fas fa-link"></i>
+        </a>
+
         <br> <!-- Retour à la ligne -->
 
         <!-- Copyright -->
@@ -170,7 +186,22 @@ footer {
         </p>
 
     </footer>
+    
+<div id="messageCopie">Lien copié ✔</div>
 
+    <script>
+function copierLien() {
+    navigator.clipboard.writeText(window.location.href);
+
+    let msg = document.getElementById("messageCopie");
+    msg.style.display = "block";
+
+    setTimeout(() => {
+        msg.style.display = "none";
+    }, 2000);
+    }
+</script>
+    
 </body>
     
 </html>
