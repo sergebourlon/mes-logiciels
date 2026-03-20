@@ -198,11 +198,10 @@ function copierLien() {
     navigator.clipboard.writeText(window.location.href);
 
     let msg = document.getElementById("messageCopie");
-
-    msg.classList.add("show");
+    msg.style.display = "block";
 
     setTimeout(() => {
-        msg.classList.remove("show");
+        msg.style.display = "none";
     }, 2000);
 }
 </script>
