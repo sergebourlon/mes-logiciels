@@ -45,7 +45,7 @@ h1 {
 
 /* ===== Boutons ===== */
 .btn {
-    display: fixed;  /* ne bouge pas la page */
+    display: block;  /* ne bouge pas la page */
     width: 300px; /* Largeur fixe */
     margin: 20px auto; /* Espace vertical + centrage horizontal */
     padding: 15px; /* Espace intérieur */
@@ -104,6 +104,9 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     display: none;
+    opacity: 0;            /* invisible */
+    transform: translateY(20px); /* légèrement en bas */
+    transition: all 0.4s ease;   /* animation douce */
 }
 
 </style>
@@ -190,17 +193,18 @@ footer {
     
 <div id="messageCopie">Lien copié ✔</div>
 
-    <script>
+<script>
 function copierLien() {
     navigator.clipboard.writeText(window.location.href);
 
     let msg = document.getElementById("messageCopie");
-    msg.style.display = "block";
+
+    msg.classList.add("show");
 
     setTimeout(() => {
-        msg.style.display = "none";
+        msg.classList.remove("show");
     }, 2000);
-    }
+}
 </script>
     
 </body>
