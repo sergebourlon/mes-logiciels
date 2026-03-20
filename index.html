@@ -5,68 +5,84 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Mes logiciels</title>
 
-    <style>
+  <style>
 
-        .banniere img {
-            height: auto;
-        }
-        
-        body {
-            font-family: Arial;
-            background: #0b2a6f;
-            color: white;
-            text-align: center;
-            padding-top: 5px;
-        }
+/* ===== Bannière ===== */
+.banner {
+    position: relative; /* Sert de repère pour du position absolute (optionnel ici) */
+    text-align: center; /* Centre l’image horizontalement */
+}
 
-        h1 {
-            font-size: 32px;
-        }
+/* Image dans la bannière */
+.banner img {
+    height: auto; /* Garde les proportions naturelles */
+}
 
-        .btn {
-            display: block;
-            width: 300px;
-            margin: 20px auto;
-            padding: 15px;
-            background: #1e90ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-size: 18px;
-        }
+/* ===== Style global de la page ===== */
+body {
+    font-family: Arial; /* Police du site */
+    background: #0b2a6f; /* Fond bleu foncé */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centre le contenu */
+    padding-top: 5px; /* Petit espace en haut */
+}
 
-        .btn:hover {
-            background: #63b3ff;
-        }
+/* ===== Titre principal ===== */
+h1 {
+    font-size: 32px; /* Taille du titre */
+}
 
-        .btn.disabled {
-            background: grey;
-            pointer-events: none;
-            cursor: not-allowed;
-        }
+/* ===== Boutons ===== */
+.btn {
+    display: block; /* Chaque bouton prend une ligne entière */
+    width: 300px; /* Largeur fixe */
+    margin: 20px auto; /* Espace vertical + centrage horizontal */
+    padding: 15px; /* Espace intérieur */
+    background: #1e90ff; /* Couleur bleu */
+    color: white; /* Texte blanc */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 18px; /* Taille du texte */
+}
 
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: #081f4d;
-        }
+/* Effet au survol */
+.btn:hover {
+    background: #63b3ff; /* Bleu plus clair */
+}
 
-        .social {
-            margin: 10px;
-            color: white;
-            font-size: 24px;
-            text-decoration: none;
-        }
+/* Bouton désactivé */
+.btn.disabled {
+    background: grey; /* Couleur grise */
+    pointer-events: none; /* Désactive le clic */
+    cursor: not-allowed; /* Curseur interdit */
+}
 
-        .social:hover {
-            color: #1e90ff;
-        }
+/* ===== Footer ===== */
+footer {
+    margin-top: 50px; /* Espace au-dessus */
+    padding: 20px; /* Espace interne */
+    background: #081f4d; /* Fond bleu très foncé */
+}
 
-        .copyright{
-            font-size: 14px;
-        }
+/* Icônes réseaux sociaux */
+.social {
+    margin: 10px; /* Espace entre icônes */
+    color: white; /* Couleur blanche */
+    font-size: 24px; /* Taille icônes */
+    text-decoration: none; /* Pas de soulignement */
+}
 
-    </style>
+/* Effet hover sur icônes */
+.social:hover {
+    color: #1e90ff; /* Bleu au survol */
+}
+
+/* Texte copyright */
+.copyright {
+    font-size: 14px; /* Texte plus petit */
+}
+
+</style>
     
 </head>
 
