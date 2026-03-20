@@ -6,6 +6,26 @@
     <title>Mes logiciels</title>
 
     <style>
+
+        .banner {
+            position: relative;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .banner-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 36px;
+        }
+        
         body {
             font-family: Arial;
             background: #0b2a6f;
@@ -66,6 +86,11 @@
 </head>
 
 <body>
+
+    <div class="banner">
+    <img src="banner.png" alt="Bannière">
+    <h1 class="banner-title">Mes logiciels Python</h1>
+    </div>
 
     <h1>Mes logiciels Python</h1>
 
