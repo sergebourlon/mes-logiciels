@@ -1,4 +1,4 @@
-# Mes logiciels
+# Page consacrée à mes logiciels
 
 Bienvenue sur mon dépôt GitHub dédié à mes logiciels Python.
 
