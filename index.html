@@ -93,18 +93,6 @@ footer {
     font-size: 14px; /* Texte plus petit */
 }
 
-/* Pop-up "Lien copié" */
-#messageCopie {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: green;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: none;
-}
-
 </style>
     
 </head>
@@ -186,23 +174,6 @@ footer {
         </p>
 
     </footer>
-    
-<div id="messageCopie">Lien copié ✔</div>
-
-<script>
-function copierLien() {
-    navigator.clipboard.writeText(window.location.href);
-
-    let msg = document.getElementById("messageCopie");
-    msg.style.display = "block";
-
-    setTimeout(() => {
-        msg.style.display = "none";
-    }, 2000);
-}
-</script>
-
-<div id="messageCopie">Lien copié ✔</div>
     
 </body>
     
