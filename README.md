@@ -25,7 +25,7 @@ Application Python avec interface graphique permettant de :
 - disposer d’un installateur Windows simple
 
 👉 **Télécharger le logiciel :**  
-https://github.com/sergebourlon/mes-logiciels/releases
+https://github.com/sergebourlon/mes-logiciels/releases/download/v1.0/Setup_Calculateur_VLSM.zip
 
 ---
 
