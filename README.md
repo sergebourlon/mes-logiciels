@@ -1,10 +1,22 @@
-# Page consacrée à mes logiciels
+# 💻 Mes logiciels Python
 
-Bienvenue sur mon dépôt GitHub dédié à mes logiciels Python.
+Bienvenue sur mon dépôt GitHub dédié à mes applications développées en Python.
 
-## Téléchargement
+---
 
-### Calculateur réseaux IPV4 - VLSM
+## 📥 Téléchargement
+
+### 🎬 Chapter2MP4 - Version 1.0
+
+Application permettant de convertir et manipuler des chapitres vidéo vers le format MP4 avec une interface simple et intuitive.
+
+👉 **Télécharger le logiciel :**  
+https://github.com/sergebourlon/mes-logiciels/releases/download/chapter2mp4-v1.0/Setup_Chapter2MP4.zip
+
+---
+
+### 🌐 Calculateur réseaux IPv4 - VLSM
+
 Application Python avec interface graphique permettant de :
 
 - calculer des informations réseau
@@ -12,21 +24,20 @@ Application Python avec interface graphique permettant de :
 - travailler en VLSM
 - disposer d’un installateur Windows simple
 
-👉 Télécharger ici :  
-[Calculateur réseaux IPV4 - VLSM](https://github.com/sergebourlon/mes-logiciels/releases/download/v1.0/Setup_Calculateur_VLSM.zip)
+👉 **Télécharger le logiciel :**  
+https://github.com/sergebourlon/mes-logiciels/releases
 
-## Page web
+---
 
-Une page de téléchargement est également disponible ici :  
-[Mes logiciels Python](https://sergebourlon.github.io/mes-logiciels/)
+## 🛠️ Technologies utilisées
 
-## Contenu du dépôt
+- Python
+- Tkinter / CustomTkinter
+- FFmpeg
+- Inno Setup
 
-Ce dépôt contient :
-- une page HTML de présentation
-- des liens de téléchargement
-- mes futures versions de logiciels Python
+---
 
-## Auteur
+## 📌 Auteur
 
-Serge Bourlon
+Serge Bourlon – 2026
